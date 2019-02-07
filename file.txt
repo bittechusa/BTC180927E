@@ -1,0 +1,10 @@
+linux command
+cd---change directory
+ls--to see list
+pwd---present work directory
+touch--to create a file
+mkdir--make directory
+cat--to see what file contains
+vi/nano--to write
+grep---to get partial value from a file
+
