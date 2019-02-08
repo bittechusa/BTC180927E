@@ -7,4 +7,4 @@ mkdir--make directory
 cat--to see what file contains
 vi/nano--to write
 grep---to get partial value from a file
-
+cd .. --one step back
