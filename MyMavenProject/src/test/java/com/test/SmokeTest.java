@@ -67,6 +67,7 @@ public class SmokeTest {
 		   
 		} catch (IOException ex) {
 		    // Report
+			System.out.println(ex.getMessage());
 		} finally {
 		   try {writer.close();} catch (Exception ex) {/*ignore*/}
 		}
