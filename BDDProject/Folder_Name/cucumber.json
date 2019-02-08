@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "LogIn to Facebook website",
+        "description": "",
+        "id": "sign-up-validation;login-to-facebook-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4501115552,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i enter facebook",
+            "match": {
+              "location": "SamplStepDefinition.i_enter_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115033552,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i type userId as \"ab234c@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ab234c@yahoo.com",
+                  "offset": 18
+                }
+              ],
+              "location": "SamplStepDefinition.i_type_userId_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69659893,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i type passord as \"Abcd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd123",
+                  "offset": 19
+                }
+              ],
+              "location": "SamplStepDefinition.i_type_passord_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1138940100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on log in button",
+            "match": {
+              "location": "SamplStepDefinition.i_click_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5029393076,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i should be logged in successfully",
+            "match": {
+              "location": "SamplStepDefinition.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "LogIn to Facebook website",
+        "description": "",
+        "id": "sign-up-validation;login-to-facebook-website;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2536584477,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i enter facebook",
+            "match": {
+              "location": "SamplStepDefinition.i_enter_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114364842,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i type userId as \"ab2dfvd34c@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ab2dfvd34c@yahoo.com",
+                  "offset": 18
+                }
+              ],
+              "location": "SamplStepDefinition.i_type_userId_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81145568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i type passord as \"Abcvfdd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcvfdd123",
+                  "offset": 19
+                }
+              ],
+              "location": "SamplStepDefinition.i_type_passord_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 748313020,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on log in button",
+            "match": {
+              "location": "SamplStepDefinition.i_click_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5029949975,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i should be logged in successfully",
+            "match": {
+              "location": "SamplStepDefinition.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up Validation",
+    "description": "",
+    "id": "sign-up-validation",
+    "keyword": "Feature",
+    "uri": "/Users/bittechconsulting/eclipse-workspace/BDDProject/abc.feature"
+  }
+]
